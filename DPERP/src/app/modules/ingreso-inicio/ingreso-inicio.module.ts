@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IngresoInicioComponent } from './ingreso-inicio.component';
 import { IngresoInicioRoutingModule } from './ingreso-inicio-routing.module';
+import { LoginComponent } from './login/login.component';
 
 
 
 @NgModule({
   declarations: [
-    IngresoInicioComponent
+    IngresoInicioComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
