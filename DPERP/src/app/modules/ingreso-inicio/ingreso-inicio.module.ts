@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IngresoInicioComponent } from './ingreso-inicio.component';
+import { IngresoInicioRoutingModule } from './ingreso-inicio-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { IngresoInicioComponent } from './ingreso-inicio.component';
     IngresoInicioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    IngresoInicioRoutingModule
   ]
 })
 export class IngresoInicioModule { }
